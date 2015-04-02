@@ -1,7 +1,8 @@
 header {
-  background: #000000;
+  background-color: #000000;
   color: #fff;
-  height: 50px; }
+  height: 60px;
+  width: 100%; }
   header ul {
     display: inline-block;
     font-size: 10px;
@@ -19,25 +20,21 @@ header {
   header a {
     float: right;
     position: relative;
-    font-size: .75em;
-    top: 25px;
-    border: solid 2px #fff;
+    font-size: .6em;
+    top: 0;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
     border-radius: 10px;
-    padding: 2.5px 5px 2.5px 5px;
+    padding: .5em 2em;
+    background-color: #04AF09;
     color: #fff;
-    margin-top: -55px; }
+    margin-top: -35px; }
   header a:hover {
     opacity: .8;
     color: #fff; }
-  header input[type="search"] {
-    position: relative;
-    top: 15px;
-    border-radius: 10px;
-    width: 80%;
-    right: 0px;
-    display: none; }
-  header button {
-    display: none; }
+  header .signup {
+    border-top: solid 1px #fff; }
 
 .logo {
   position: relative;
@@ -56,21 +53,27 @@ header {
   height: 10%; }
   .icon-bar a {
     position: relative;
-    padding-top: 10px; }
+    padding-top: 10px;
+    color: #04AF09; }
   .icon-bar img {
     height: 1.3em;
     width: 1.3em; }
   .icon-bar label {
     font-size: .65em; }
+  .icon-bar .menu {
+    color: #04af09; }
+  .icon-bar input[type="search"] {
+    position: relative;
+    border-radius: 10px;
+    top: 10px;
+    width: 75%;
+    float: right;
+    display: none;
+    margin-right: 10px;
+    text-align: left; }
 
-section {
-  padding-top: 20px; }
-  section h1 {
-    font-family: 'Lora', serif;
-    font-size: 18px;
-    font-weight: bold; }
-  section p {
-    font-size: 14px; }
+section .breakingNews {
+  background-color: #000000; }
 
 .x {
   position: absolute;
