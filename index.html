@@ -14,8 +14,13 @@
       <div class="inner-wrap"><!--- changes by edwin -->
         <aside class="left-off-canvas-menu">
           <ul class="off-canvas-list">
-            <li role="title">Boston Globe</li>
-              
+            <li class="title">Boston Globe</li>
+            <li>News</li>
+            <li>Metro</li>
+            <li>Sports</li>
+            <li></li>
+            <li></li>
+            <li></li>  
           </ul>
         </aside>
         <a class="exit-off-canvas"></a>
@@ -34,7 +39,7 @@
       </header>
       
       <nav class="icon-bar five-up">
-        <input type="search" placeholder="Search">
+        <input type="search" placeholder="Search The Globe">
         <a class="item left-off-canvas-toggle">
           <img src="images/menu.png">
           <label class="menu">Menu</label>
@@ -66,7 +71,7 @@
      </nav>
 
      <section class="breakingNews">
-      <div class="container">
+      <div class="row">
         <div class="small-12 columns">
           <h1>hello world</h1>
         </div>
@@ -84,6 +89,9 @@
         $("nav a:last-child").click(function(){
           $("nav a:nth-child(n+3)").hide();
            $("input").show();
+        })
+        $("input:focus").click(function(){
+          $("input").hide();
         })
       });
     </script>
