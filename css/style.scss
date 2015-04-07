@@ -1,4 +1,5 @@
 // header
+@media only screen and (max-width: 40em) { 
 header  {
   background-color: #000000;
   color:#fff;
@@ -65,15 +66,15 @@ header  {
 
 //Icon-bar code. icon-bar is a class from Foundation
 .icon-bar {
-  background: linear-gradient( #545454,  #000000);
-  background: -webkit-linear-gradient( #545454,  #000000); 
-  background: -o-linear-gradient( #545454, #000000); 
-  background: -moz-linear-gradient( #545454, #000000); 
   height:10%;
    a{
     position: relative;
     padding-top:10px;
     color:#04AF09;
+    background: linear-gradient( #545454,  #000000);
+    background: -webkit-linear-gradient( #545454,  #000000); 
+    background: -o-linear-gradient( #545454, #000000); 
+    background: -moz-linear-gradient( #545454, #000000); 
   }
 
   img {
@@ -131,4 +132,5 @@ header  {
   background-color:#fff;
   opacity:.2;
 
+}
 }
