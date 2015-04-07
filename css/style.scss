@@ -1,136 +1,159 @@
 // header
 @media only screen and (max-width: 40em) { 
-header  {
-  background-color: #000000;
-  color:#fff;
-  height:60px;
-  width:100%;
-  ul {
-    display:inline-block;
-    font-size:10px;
-    list-style: none;
-    position:relative;
-    top:8px;
-    right:10px;
-  }
-  
-  li:first-child {
-    font-size:12px;
-  }
-
-  img:first-child {
-    height:25px;
-    width:40px;
-    border-right:solid 1px #fff;
-    padding-right:10px;
-  }
-
-  
-  a {
-    float:right;
-    position: relative;
-    font-size: .6em;
-    top:0;
-    font-weight: bold;
-    text-align:center;
-    text-transform: uppercase;
-    //border:solid 1px #fff;
-    border-radius: 10px;
-    padding:.5em 2em;
-    background-color: #04AF09;
+  .off-canvas-list li {
+    //border:1px solid #fff;
+    //border-right:0px;
+    //border-left:0px;
     color:#fff;
-    margin-top: -35px;
-  }
-
-  a:hover {
-    opacity:.8;
-    color:#fff;
-  }
-  .signup {
-    border-top:solid 1px #fff;
-
-  }
-}
-//end of header scss
-
-//Boston Globe Icon Code
-.logo {
-  position: relative;
-  margin-top:-45px;
-  height:32px;
-  width:30px;
-  display:block;
-  margin-right:auto;
-  margin-left:auto;
-}
-
-//Icon-bar code. icon-bar is a class from Foundation
-.icon-bar {
-  height:10%;
-   a{
-    position: relative;
-    padding-top:10px;
-    color:#04AF09;
-    background: linear-gradient( #545454,  #000000);
-    background: -webkit-linear-gradient( #545454,  #000000); 
-    background: -o-linear-gradient( #545454, #000000); 
-    background: -moz-linear-gradient( #545454, #000000); 
-  }
-
-  img {
-    height:1.3em;
-    width:1.3em;
-  }
-  label {
-    font-size:.65em; 
-  }
-  .menu {
-      color:#04af09;
-    }   
-
-  input[type="search"] {
     position:relative;
-    border-radius:10px;
-    top:10px;
-    width:75%;
-    float:right; 
+    left:10px;
+    font-size: 1.5em;
+  }
+   .title {
+      font-weight: bold;
+      font-size: 2em;
+      border:none;
+    }
+  header  {
+    background-color: #000000;
+    color:#fff;
+    height:60px;
+    width:100%;
+    ul {
+      display:inline-block;
+      font-size:10px;
+      list-style: none;
+      position:relative;
+      top:8px;
+      right:10px;
+    }
+    
+    li:first-child {
+      font-size:12px;
+    }
+
+    img:first-child {
+      height:25px;
+      width:40px;
+      border-right:solid 1px #fff;
+      padding-right:10px;
+    }
+
+    
+    a {
+      float:right;
+      position: relative;
+      font-size: .6em;
+      top:0;
+      font-weight: bold;
+      text-align:center;
+      text-transform: uppercase;
+      //border:solid 1px #fff;
+      border-radius: 10px;
+      padding:.5em 2em;
+      background-color: #04AF09;
+      color:#fff;
+      margin-top: -35px;
+    }
+
+    a:hover {
+      opacity:.8;
+      color:#fff;
+    }
+    .signup {
+      border-top:solid 1px #fff;
+
+    }
+  }
+  //end of header scss
+
+  //Boston Globe Icon Code
+  .logo {
+    position: relative;
+    margin-top:-45px;
+    height:32px;
+    width:30px;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+  }
+
+  //Icon-bar code. icon-bar is a class from Foundation
+  .icon-bar {
+    height:10%;
+     background: linear-gradient( #545454,  #000000);
+      background: -webkit-linear-gradient( #545454,  #000000); 
+      background: -o-linear-gradient( #545454, #000000); 
+      background: -moz-linear-gradient( #545454, #000000); 
+     a{
+      position: relative;
+      padding-top:10px;
+      color:#04AF09;
+    }
+
+    img {
+      height:1.3em;
+      width:1.3em;
+    }
+    label {
+      font-size:.65em; 
+    }
+    .menu {
+        color:#04af09;
+      }  
+
+    input[type="search"] {
+      position:relative;
+      border-radius:10px;
+      top:10px;
+      width:82%;
+      float:right; 
+      display:none;
+      margin-right: 10px;
+      text-align: left;
+
+    }
+    .exit{
+      display:none;
+      height:100%;
+      width:15%;
+      background:none;
+    }
+  }
+
+    
+  .breakingNews{
+    background-color:#FA191D;
+    color:#fff;
     display:none;
-    margin-right: 10px;
-    text-align: left;
-
-  }
-  
-}
-
-  
-.breakingNews{
-  background-color:#FA191D;
-  color:#fff;
-  display:none;
-  position:absolute;
-  top:125px;
-  z-index:100;
-  h2 {
-    color:#fff;
-  }
-  button {
-    display:inline-block;
     position:absolute;
-    background:none;
-    padding:4px 10px 4px 10px;
-    border:solid 1px #fff;
-    border-radius:50%;
+    top:125px;
+    z-index:100;
+    opacity:.9;
+    h2 {
+      color:#fff;
+    }
+    button {
+      display:inline-block;
+      position:absolute;
+      background:none;
+      padding:4px 10px 4px 10px;
+      border:solid 1px #fff;
+      border-radius:50%;
+    }
   }
-}
 
-.x {
-  position:absolute;
-  height:40px;
-  width:1px;
-  left:100%;
-  bottom:30%;
-  background-color:#fff;
-  opacity:.2;
-
+img .splash {
+ width:100%;
 }
+  .x {
+    position:absolute;
+    height:40px;
+    width:1px;
+    left:100%;
+    bottom:30%;
+    background-color:#fff;
+    opacity:.2;
+    z-index:100;
+  }
 }
