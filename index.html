@@ -14,7 +14,17 @@
       <div class="inner-wrap"><!--- changes by edwin -->
         <aside class="left-off-canvas-menu">
           <ul class="off-canvas-list">
-            <li role="title">Boston Globe</li>
+
+            <li class="title">Boston Globe</li>
+            <li>News</li>
+            <li>Metro</li>
+            <li>Sports</li>
+            <li></li>
+            <li></li>
+            <li></li>  
+
+           
+
 
           </ul>
         </aside>
@@ -34,6 +44,7 @@
 
       <nav class="icon-bar five-up show-for-small-only">
         <input type="search" placeholder="Search">
+
         <a class="item left-off-canvas-toggle">
           <img src="images/menu.png">
           <label class="menu">Menu</label>
@@ -62,15 +73,52 @@
           <img src="images/search.png">
           <label>Search</label>
         </a>
-     </nav>
 
+     </nav>
      <section class="breakingNews">
-      <div class="container">
+       <div class="row"> 
         <div class="small-12 columns">
-          <h1>hello world</h1>
+          <h2>BREAKING NEWS</h2>
+          <div class="small-10 columns">
+            <p>
+              Massive heatwave in the area, tropical tempratures. Scientists say its do to global warming,republican politicians are saying it is due to Obamacare 
+            </p>
+          </div>
+          <div class="small-2 columns">
+            <button>
+              X
+            </button>
+          </div>
+          
+
         </div>
       </div>
      </section>
+     <section>
+      <div class="row">
+        <div class="small-12 columns">
+          <h1>Hello</h1>
+          <h1>World</h1>
+          <h1>Hi</h1>
+          <p>ashdfjasdfgaerfgergadfdf</p>
+          <p>erjgherjghergergerg</p>
+           <h1>Hello</h1>
+          <h1>World</h1>
+          <h1>Hi</h1>
+          <p>ashdfjasdfgaerfgergadfdf</p>
+          <p>erjgherjghergergerg</p>
+           <h1>Hello</h1>
+          <h1>World</h1>
+          <h1>Hi</h1>
+          <p>ashdfjasdfgaerfgergadfdf</p>
+          <p>erjgherjghergergerg</p>
+           <h1>Hello</h1>
+          <h1>World</h1>
+          <h1>Hi</h1>
+          <p>ashdfjasdfgaerfgergadfdf</p>
+          <p>erjgherjghergergerg</p>
+        </div>
+      </div>
   </div>
 </div>
 
@@ -83,6 +131,12 @@
         $("nav a:last-child").click(function(){
           $("nav a:nth-child(n+3)").hide();
            $("input").show();
+        })
+        $("input:focus").click(function(){
+          $("input").hide();
+        })
+        $(window).load(function() {
+          $(".breakingNews").delay(1500).slideDown().delay(7000).slideUp();
         })
       });
     </script>
