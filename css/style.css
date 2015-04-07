@@ -72,8 +72,22 @@ header {
     margin-right: 10px;
     text-align: left; }
 
-section .breakingNews {
-  background-color: #000000; }
+.breakingNews {
+  background-color: #FA191D;
+  color: #fff;
+  display: none;
+  position: absolute;
+  top: 125px;
+  z-index: 100; }
+  .breakingNews h2 {
+    color: #fff; }
+  .breakingNews button {
+    display: inline-block;
+    position: absolute;
+    background: none;
+    padding: 4px 10px 4px 10px;
+    border: solid 1px #fff;
+    border-radius: 50%; }
 
 .x {
   position: absolute;
