@@ -1,43 +1,57 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Boston Globe</title>
-    <link rel="stylesheet" href="css/app.css" />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="css/foundation-icons.css" />
-    <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic' rel='stylesheet' type='text/css'>
-    <script src="bower_components/modernizr/modernizr.js"></script>
-  </head>
-  <body>
-    <div class="off-canvas-wrap" data-offcanvas><!--- changes by edwin -->
-      <div class="inner-wrap"><!--- changes by edwin -->
-        <aside class="left-off-canvas-menu">
-          <ul class="off-canvas-list">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Boston Globe</title>
+  <link rel="stylesheet" href="css/app.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/foundation-icons.css" />
+  <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic' rel='stylesheet' type='text/css'>
+  <script src="bower_components/modernizr/modernizr.js"></script>
+  <script src="bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+</head>
+<body>
+  <div class="off-canvas-wrap" data-offcanvas><!--- changes by edwin -->
+    <div class="inner-wrap"><!--- changes by edwin -->
+      <aside class="left-off-canvas-menu">
+        <ul class="off-canvas-list">
 
-            <li class="title">Boston Globe</li>
-            <li>News</li>
-            <li>Metro</li>
-            <li>Sports</li>
+          <li class="title">Boston Globe</li>
+          <li>News</li>
+          <li>Metro</li>
+          <li>Sports</li>
 
-          </ul>
-        </aside>
-        <a class="exit-off-canvas"></a>
-        <header class="large-12 columns small-12 columns" role="header">
-          <img src="images/weather.png">
+        </ul>
+      </aside>
+      <a class="exit-off-canvas"></a>
+      <header class="large-12 columns small-12 columns" role="header">
+        <img src="images/weather.png">
 
-          <ul class="weather">
-            <li>107&#176;</li>
-            <li>Partly Sunny</li>
-          </ul>
-          <img src="images/globe.png" class="logo">
-          <a href="#" role="login" class="login">Login<div class="signup">Sign Up</div></a>
+        <ul class="weather">
+          <li>107&#176;</li>
+          <li>Partly Sunny</li>
+        </ul>
+        <img src="images/globe.png" class="logo">
+        <a href="#" role="login" class="login">Login<div class="signup">Sign Up</div></a>
       </header>
+      <!--  Desktop Nav Bar -->
+
+      <nav class="top-bar hide-for-small" data-topbar>
+      </nav>
+
+      <!-- Desktop Breaking News -->
+      <div data-alert class="alert-box alert show-for-large-only" >
+        <i class="fi-alert size-21"></i>
+        <a href="#" class="close">&times;</a>
+      </div>
+
+
       <!-- Mobile Nav Bar -->
       <nav class="icon-bar five-up show-for-small-only">
-          <button class="exit"><img src="images/whiteexit.png"></button>
-          <input type="search" placeholder="Search">
+        <button class="exit"><img src="images/whiteexit.png"></button>
+        <input type="search" placeholder="Search">
         <a class="item left-off-canvas-toggle">
           <img src="images/menu.png">
           <label class="menu">Menu</label>
@@ -67,78 +81,132 @@
           <label>Search</label>
         </a>
 
-    </nav>
-    <!--  Desktop Nav Bar -->
-     <nav class="top-bar">
-     </nav>
-     <div data-alert class="alert-box alert show-for-large-only" >
-     <i class="fi-alert size-21"></i>
-    <a href="#" class="close">&times;</a>
-    </div>
+      </nav>
 
-     <section class="breakingNews show-for-small-only">
-       <div class="row"> 
-        <div class="small-12 columns">
-          <h2>BREAKING NEWS</h2>
-          <div class="small-10 columns">
-            <p>
-              Massive heatwave in the area, tropical tempratures. Scientists say its do to global warming,republican politicians are saying it is due to Obamacare 
-            </p>
-          </div>
-          <div class="small-2 columns">
-            <button class="close">
-              X
-            </button>
+
+      <section class="breakingNews show-for-small-only">
+        <div class="row">
+          <div class="small-12 columns">
+            <h2>BREAKING NEWS</h2>
+            <div class="small-10 columns">
+              <p>
+                Massive heatwave in the area, tropical tempratures.
+                Scientists say its do to global warming,republican
+                 politicians are saying it is due to Obamacare
+              </p>
+            </div>
+            <div class="small-2 columns">
+              <button class="close">
+                X
+              </button>
+            </div>
           </div>
         </div>
-      </div>
-     </section>
+      </section>
 
-     <section>
-      <div class="row">
-        <div class="small-12 columns">
-          <h1>Hello</h1>
-          <h1>World</h1>
-          <h1>Hi</h1>
-          <p>ashdfjasdfgaerfgergadfdf</p>
-          <p>erjgherjghergergerg</p>
-           <h1>Hello</h1>
-          <h1>World</h1>
-          <h1>Hi</h1>
-          <p>ashdfjasdfgaerfgergadfdf</p>
-          <p>erjgherjghergergerg</p>
-           <h1>Hello</h1>
-          <h1>World</h1>
-          <h1>Hi</h1>
-          <p>ashdfjasdfgaerfgergadfdf</p>
-          <p>erjgherjghergergerg</p>
-           <h1>Hello</h1>
-          <h1>World</h1>
-          <h1>Hi</h1>
-          <p>ashdfjasdfgaerfgergadfdf</p>
-          <p>erjgherjghergergerg</p>
+          <div class="small-12 columns large-12 columns">
+            <div class="row">
+              <div class="large-9 columns" role="content" id="content">
+
+                <article>
+
+                  <h3><a href="#">Amazing News Article Here</a></h3>
+                  <h6>Written by <a href="#">Jone Doe</a> on April 8, 2015.</h6>
+
+                  <div class="row">
+                    <div class="large-6 columns">
+                      <img src="http://placehold.it/400x240&text=[img]"/>
+                    </div>
+                    <div class="large-6 columns">
+                      <p> nulla neque, tristique ut arcu vitae, varius placerat tellus. Vestibulum ante ipsum primis in
+                        faucibus orci luctus et ultrices posuere cubilia Curae; Sed vitae purus sit amet dolor porttitor
+                        vehicula. Cras quis metus dictum, aliquet odio in, viverra diam.</p>
+                      <p>Pellentesque dignissim nibh id felis dictum, vel condimentum mauris volutpat. Donec convallis
+                         imperdiet eleifend. Pellentesque vel urna in augue rhoncus tincidunt.</p>
+                    </div>
+
+                  </div>
+
+                  <p> Nam ultricies odio dictum viverra rutrum. Fusce eu consectetur velit. Duis auctor mauris vitae
+                    magna luctus, nec iaculis sapien finibus. Ut porttitor quis tortor sed suscipit. Nulla egestas commodo
+                     semper. Ut semper convallis tellus, ut tempus enim commodo vitae. Duis orci risus, varius quis lacinia
+                     condimentum, aliquet in nunc.</p>
+
+                  <p>Maecenas lacinia, eros sit amet faucibus rhoncus, arcu risus finibus elit, et aliquam felis urna id
+                     risus. Praesent in velit finibus, porttitor tortor id, tristique lacus. Sed pharetra aliquet mauris
+                      vitae tristique. Phasellus molestie imperdiet est sit.</p>
+
+                </article>
+                <hr/>
+
+                <article>
+
+                  <h3><a href="#">Content!</a></h3>
+                  <h6>Written by <a href="#">Contentful Contender</a> on April 8, 2015.</h6>
+
+                  <div class="row">
+                    <div class="large-6 columns">
+                      <img src="http://placehold.it/400x240&text=[img]"/>
+                    </div>
+                    <div class="large-6 columns">
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean interdum pharetra sapien, ut
+                        tristique lorem convallis ut. Ut vestibulum quam vitae sem bibendum, sodales bibendum augue vulputate.
+                        Suspendisse sit amet.</p>
+                      <p>tincidunt nisl, in faucibus nunc. Nulla vitae ornare risus, sit amet tristique nunc. Nam tortor nunc,
+                        sollicitudin vitae massa in, ultrices mattis nisl. Nullam</p>
+                    </div>
+
+                  </div>
+
+                  <p> amet pulvinar. Nulla eu massa erat. Sed eget fringilla augue, vitae elementum tortor. Quisque cursus
+                    tellus sed molestie commodo. Aenean eros nunc, dignissim a ex vel, auctor sagittis orci. Class aptent
+                    taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur lectus erat,
+                    sollicitudin non ipsum non, luctus pretium dolor. Praesent metus</p>
+
+                  <p> nunc, rutrum a congue vel, sollicitudin at lectus. Quisque quis tempus arcu. Nulla facilisi. Donec
+                     tempor hendrerit ante vel dapibus. Sed molestie ipsum nisl, vel eleifend est imperdiet ut. Curabitur
+                      eget lacus facilisis, commodo dolor a, malesuada purus.</p>
+
+                </article>
+
+              </div>
+              <a id="next" href="index2.html"></a>
+            </div>
+          </div>
         </div>
-      </div>
-  </div>
-</div>
 
-
-    <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <script src="bower_components/foundation/js/foundation.min.js"></script>
-    <script src="js/app.js"></script>
+        <script src="js/app.js"></script>
+        <script type="text/javascript" src="js/jquery.infinitescroll.js"></script>
+        <script type="text/javascript" src="js/manual-trigger.js"></script>
         <script>
-      $(document).ready(function(){
-        $("nav a:last-child").click(function(){
-          $("nav a:nth-child(n+3)").hide();
-           $("input").show();
-        })
-        $("input:focus").click(function(){
-          $("input").hide();
-        })
-        $(window).load(function() {
-          $(".breakingNews").delay(1500).slideDown().delay(7000).slideUp();
-        })
-      });
-    </script>
-  </body>
-</html>
+        $(document).ready(function(){
+          $("nav a:last-child").click(function(){
+            $("nav a:nth-child(n+3)").hide();
+            $("input").show();
+          })
+          $("input:focus").click(function(){
+            $("input").hide();
+          })
+
+          $('#content').infinitescroll({
+            navSelector: "#next:last",
+            nextSelector: "#next:last",
+            itemSelector: "#content",
+            debug: false,
+            dataType: 'html',
+            path: function(index) {
+              return "index" + index + ".html";
+            }
+            // appendCallback   : false, // USE FOR PREPENDING
+          }, function(newElements, data, url){
+            // used for prepending data
+            // $(newElements).css('background-color','#ffef00');
+            // $(this).prepend(newElements);
+          })
+          $(window).load(function() {
+            $(".breakingNews").delay(1500).slideDown().delay(7000).slideUp();
+          })
+        });
+        </script>
+      </body>
+      </html>

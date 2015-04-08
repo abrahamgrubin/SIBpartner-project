@@ -117,8 +117,8 @@
     left: 100%;
     bottom: 30%;
     background-color: #fff;
-    opacity: .2; 
-  } 
+    opacity: .2;
+  }
 }
   /*kai's css*/
 
@@ -127,7 +127,7 @@
     background-color: #000000;
     color: #fff;
     height: 60px;
-    width: 100%; 
+    width: 100%;
     }
   header ul {
       display: inline-block;
@@ -136,15 +136,15 @@
       position: relative;
       top: 8px;
       right: 10px;
-    } 
+    }
   header li:first-child {
-      font-size: 12px; 
+      font-size: 12px;
     }
   header img:first-child {
       height: 25px;
       width: 40px;
       border-right: solid 1px #fff;
-      padding-right: 10px; 
+      padding-right: 10px;
     }
   header a {
       float: right;
@@ -158,14 +158,14 @@
       padding: .5em 2em;
       background-color: #04AF09;
       color: #fff;
-      margin-top: -35px; 
+      margin-top: -35px;
     }
   header a:hover {
       opacity: .8;
-      color: #fff; 
+      color: #fff;
     }
   header .signup {
-      border-top: solid 1px #fff; 
+      border-top: solid 1px #fff;
     }
   .logo {
     position: relative;
@@ -174,17 +174,17 @@
     width: 30px;
     display: block;
     margin-right: auto;
-    margin-left: auto; 
-    }  
+    margin-left: auto;
+    }
 /********************/
 /* Breaking News CSS */
 
 .top-bar{
   height: 25px;
   top: 60px;
-  z-index: 999;
-  margin-bottom: 50px;
-  border-top: 2px solid white; 
+  margin-bottom: 60px;
+  border-top: 2px solid white;
+  border-bottom: 1px solid silver;
   background-color: black;
 }
 i{
@@ -194,5 +194,6 @@ i{
   position: absolute;
   width: 100%;
   z-index: 998;
+  opacity: 0.9;
 }
 /*# sourceMappingURL=style.css.map */
