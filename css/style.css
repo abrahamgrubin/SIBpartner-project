@@ -97,7 +97,89 @@
     left: 100%;
     bottom: 30%;
     background-color: #fff;
-    opacity: .2; } }
+    opacity: .2; } 
+  }
+  /*kai's css*/
 
+  /* Header CSS */
+  header {
+    background-color: #000000;
+    color: #fff;
+    height: 60px;
+    width: 100%; 
+    }
+  header ul {
+      display: inline-block;
+      font-size: 10px;
+      list-style: none;
+      position: relative;
+      top: 8px;
+      right: 10px;
+    } 
+  header li:first-child {
+      font-size: 12px; 
+    }
+  header img:first-child {
+      height: 25px;
+      width: 40px;
+      border-right: solid 1px #fff;
+      padding-right: 10px; 
+    }
+  header a {
+      float: right;
+      position: relative;
+      font-size: .6em;
+      top: 0;
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+      border-radius: 10px;
+      padding: .5em 2em;
+      background-color: #04AF09;
+      color: #fff;
+      margin-top: -35px; 
+    }
+  header a:hover {
+      opacity: .8;
+      color: #fff; 
+    }
+  header .signup {
+      border-top: solid 1px #fff; 
+    }
+  .logo {
+    position: relative;
+    margin-top: -45px;
+    height: 32px;
+    width: 30px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto; 
+    }  
+/********************/
+/* Breaking News CSS */
+
+.breakingNews {
+    background-color: #FA191D;
+    color: #fff;
+    display: none;
+    position: absolute;
+    top: 125px;
+    z-index: 100; 
+  }
+.breakingNews h2 {
+      color: #fff; 
+    }
+.breakingNews button {
+      display: inline-block;
+      position: absolute;
+      background: none;
+      padding: 4px 10px 4px 10px;
+      border: solid 1px #fff;
+      border-radius: 50%; 
+    }
+.top-bar{
+  top: 60px;
+  background-color: black;
+}
 
 /*# sourceMappingURL=style.css.map */
