@@ -126,24 +126,17 @@
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
-    <script>
+        <script>
       $(document).ready(function(){
         $("nav a:last-child").click(function(){
-          $("nav a").hide();
+          $("nav a:nth-child(n+3)").hide();
            $("input").show();
-           $(".exit").show()
         })
-          $(".exit").click(function(){
-          $("nav a").show();
-           $("input").hide();
-           $(".exit").hide();
+        $("input:focus").click(function(){
+          $("input").hide();
         })
-        
         $(window).load(function() {
-          $(".breakingNews").delay(1500).slideDown();
-        })
-        $(".close").click(function(){
-          $(".breakingNews").slideUp();
+          $(".breakingNews").delay(1500).slideDown().delay(7000).slideUp();
         })
       });
     </script>
