@@ -19,12 +19,6 @@
             <li>News</li>
             <li>Metro</li>
             <li>Sports</li>
-            <li></li>
-            <li></li>
-            <li></li>  
-
-           
-
 
           </ul>
         </aside>
@@ -32,7 +26,7 @@
         <header class="large-12 columns small-12 columns" role="header">
           <img src="images/weather.png">
 
-          <ul>
+          <ul class="weather">
             <li>107&#176;</li>
             <li>Partly Sunny</li>
           </ul>
@@ -42,10 +36,9 @@
 
       </header>
 
-      <!-- Mobile Nav Bar -->
       <nav class="icon-bar five-up show-for-small-only">
-        <input type="search" placeholder="Search">
-
+          <button class="exit"><img src="images/whiteexit.png"></button>
+          <input type="search" placeholder="Search">
         <a class="item left-off-canvas-toggle">
           <img src="images/menu.png">
           <label class="menu">Menu</label>
@@ -74,11 +67,12 @@
           <img src="images/search.png">
           <label>Search</label>
         </a>
-     </nav>
+
+    </nav>
     <!--  Desktop Nav Bar -->
      <nav class="top-bar">
-       
      </nav>
+
      <section class="breakingNews">
        <div class="row"> 
         <div class="small-12 columns">
@@ -89,7 +83,7 @@
             </p>
           </div>
           <div class="small-2 columns">
-            <button>
+            <button class="close">
               X
             </button>
           </div>
@@ -101,6 +95,7 @@
      <section>
       <div class="row">
         <div class="small-12 columns">
+          <img src="images/front-page.jpg" class="splash">
           <h1>Hello</h1>
           <h1>World</h1>
           <h1>Hi</h1>
@@ -133,14 +128,21 @@
     <script>
       $(document).ready(function(){
         $("nav a:last-child").click(function(){
-          $("nav a:nth-child(n+3)").hide();
+          $("nav a").hide();
            $("input").show();
+           $(".exit").show()
         })
-        $("input:focus").click(function(){
-          $("input").hide();
+          $(".exit").click(function(){
+          $("nav a").show();
+           $("input").hide();
+           $(".exit").hide();
         })
+        
         $(window).load(function() {
-          $(".breakingNews").delay(1500).slideDown().delay(7000).slideUp();
+          $(".breakingNews").delay(1500).slideDown();
+        })
+        $(".close").click(function(){
+          $(".breakingNews").slideUp();
         })
       });
     </script>

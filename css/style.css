@@ -1,4 +1,15 @@
 @media only screen and (max-width: 40em) {
+  .off-canvas-list li {
+    color: #fff;
+    position: relative;
+    left: 10px;
+    font-size: 1.5em; }
+
+  .title {
+    font-weight: bold;
+    font-size: 2em;
+    border: none; }
+
   header {
     background-color: #000000;
     color: #fff;
@@ -47,15 +58,15 @@
     margin-left: auto; }
 
   .icon-bar {
-    height: 10%; }
+    height: 10%;
+    background: linear-gradient(#545454, #000000);
+    background: -webkit-linear-gradient(#545454, #000000);
+    background: -o-linear-gradient(#545454, #000000);
+    background: -moz-linear-gradient(#545454, #000000); }
     .icon-bar a {
       position: relative;
       padding-top: 10px;
-      color: #04AF09;
-      background: linear-gradient(#545454, #000000);
-      background: -webkit-linear-gradient(#545454, #000000);
-      background: -o-linear-gradient(#545454, #000000);
-      background: -moz-linear-gradient(#545454, #000000); }
+      color: #04AF09; }
     .icon-bar img {
       height: 1.3em;
       width: 1.3em; }
@@ -67,11 +78,16 @@
       position: relative;
       border-radius: 10px;
       top: 10px;
-      width: 75%;
+      width: 82%;
       float: right;
       display: none;
       margin-right: 10px;
       text-align: left; }
+    .icon-bar .exit {
+      display: none;
+      height: 100%;
+      width: 15%;
+      background: none; }
 
   .breakingNews {
     background-color: #FA191D;
@@ -79,7 +95,8 @@
     display: none;
     position: absolute;
     top: 125px;
-    z-index: 100; }
+    z-index: 100;
+    opacity: .9; }
     .breakingNews h2 {
       color: #fff; }
     .breakingNews button {
@@ -90,6 +107,9 @@
       border: solid 1px #fff;
       border-radius: 50%; }
 
+  img .splash {
+    width: 100%; }
+
   .x {
     position: absolute;
     height: 40px;
@@ -97,6 +117,7 @@
     left: 100%;
     bottom: 30%;
     background-color: #fff;
+<<<<<<< HEAD
     opacity: .2; } 
   }
   /*kai's css*/
