@@ -87,7 +87,7 @@
     .icon-bar .exit {
       display: none;
       height: 100%;
-      width: 15%;
+      width: 14%;
       background: none; }
 
   .breakingNews {
@@ -120,6 +120,20 @@
     background-color: #fff;
     opacity: .2;
   }
+  .alert-box{
+  position: absolute;
+  width: 100%;
+  z-index: 998;
+  opacity: 0.9;
+  top: 125px;
+}
+.fi-alert{
+  color: yellow;
+}
+.fi-x{
+  font-size: 10px;
+}
+
 }
   /*kai's css*/
 
