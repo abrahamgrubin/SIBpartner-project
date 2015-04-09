@@ -183,9 +183,13 @@
   top: 1px;
   background-color: black;
 }
+.top-bar a{
+  padding: 50px;
+}
 .sticky.fixed .top-bar{
   top: 0px;
 }
+
 i{
   color: yellow;
 }
