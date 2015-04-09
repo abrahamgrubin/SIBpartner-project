@@ -180,18 +180,14 @@
 /* Breaking News CSS */
 
 .top-bar{
-  height: 25px;
-  top: 60px;
-  margin-bottom: 60px;
-  border-top: 2px solid white;
+  border-top: 1px solid white;
   border-bottom: 1px solid silver;
-  background-color: black;
+
 }
 i{
   color: yellow;
 }
 .alert-box{
-  display:none;
   position: absolute;
   width: 100%;
   z-index: 998;
