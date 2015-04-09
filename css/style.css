@@ -180,10 +180,11 @@
 /* Breaking News CSS */
 
 .top-bar{
+  top: 1px;
   background-color: black;
 }
-.top-bar-section ul li a{
-  background-color: black;
+.sticky.fixed .top-bar{
+  top: 0px;
 }
 i{
   color: yellow;
